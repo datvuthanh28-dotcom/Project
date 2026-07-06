@@ -6,7 +6,7 @@
     <title>Maison Rue | Homepage</title>
 
     <link rel="stylesheet" href="homepage.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <script src="https://unpkg.com/lucide@latest"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,7 +21,7 @@
         </nav>
         <img src="image/logo.png" alt="maisonrue_logo">
         <nav class="head-right">
-            <a href="">SEARCH <i data-lucide="search"></i></a>
+            <a href="">SEARCH<i data-lucide="search"></i></a>
             <a href="">ACCOUNT <i data-lucide="user"></i></a>
             <a href="">CART <span id="quantity"></span> <i data-lucide="shopping-bag"></i></a>
         </nav>
@@ -43,7 +43,7 @@
 
     <section class="best-sellers">
         <div class="bs-head">
-            <h1>BEST SELLERS</h1>
+            <h1>Best Sellers</h1>
         </div>
         <div class="bs-cards">
             <div class="shirt">
@@ -99,9 +99,9 @@
             <div class="product-slider2">
                 <button class="arrow-left2" onclick="prevProduct()">‹</button>
                 <div class="product-card2">
-                    <img id="productImg" src="image/Linen Shirt - Men/1.png" alt="Product">
+                    <img id="productImg" src="image/Linen Shirt - Women/1.png" alt="Product">
                     <h3 id="productName">Linen Shirt</h3>
-                    <p id="productGender">Men</p>
+                    <p id="productGender">Women</p>
                 </div>
                 <button class="arrow-right2" onclick="nextProduct()">›</button>
             </div>
@@ -113,10 +113,78 @@
             <button class="view-btn2">View all looks</button>
         </div>
         <div class="look-model2">
-            <img src="image/model.png" alt="Maison Rue Look">
+            <img src="image/Linen Pants - Women/4.png" alt="Maison Rue Look">
         </div>
         
     </section>
+
+    <section class="our-story">
+        <div class="os-content">
+            <h1>The Art of Crafting</h1>
+            <p>At Maison Rue, every piece begins with quiet precision — from the
+            selection of natural fabrics to the balance of proportion, texture,
+            and form. Our approach to craftsmanship is understated, thoughtful,
+            and made for everyday elegance.</p>
+        </div>
+        <div class="os-img">
+            <img src="image/our story/craft.jpg" alt="Maison Rue Story">
+        </div>
+       <div class="os-discover">
+            <p>- Discover More -</p>
+        </div> 
+    </section>
+
+    <section class="contact">
+        <div class="subscribe">
+            <h1>Subscribe to our newsletter</h1>
+            <p>Receive our newsletter and discover our world, collections, and latest news from us.</p>
+            <form class="subscribe-form">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit">→</button>
+            </form>
+            <p class="privacy-text">I acknowledge that my email address will be processed by Maison Rue in accordance with the provisions of the <a href="#">Privacy Policy</a>.</p>
+        </div>
+        <div class="more-info">
+            <div class="customer-care">
+                <h1>Customer Care</h1>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="about-us">
+                <h1>About Us</h1>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                </ul>
+            </div>
+            <div class="legal-cookies">
+                <h1>Legal & Cookies</h1>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+            </div>
+            <div class="social-media">
+                <h1>Follow Us</h1>
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i><span> @maisonruevn</span></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i><span> Maison Rue</span></a></li>
+                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i><span> @MaisonRue</span></a></li>
+                    <li><a href="#"><i class="fa-brands fa-tiktok"></i><span> @MaisonRue</span></a></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>© 2026 Maison Rue. All rights reserved.</p>
 
     <script>
        lucide.createIcons();

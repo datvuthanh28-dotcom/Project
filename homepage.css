@@ -51,12 +51,6 @@ header {
         color:#2B211C;
         margin-bottom: 60px;
     }
-    .sc-text h2{
-        font-family:"Cormorant Garamond", serif;
-        font-size: 42px;
-        font-weight: 500;
-        color:#2B211C;
-    }
     .sc-text p{
         width: 750px;
         font-family:"Inter", sans-serif;
@@ -67,8 +61,8 @@ header {
     .sc-text button{
         margin-top: 20px;
         padding: 20px 55px;
-        background:#1F2E46;
-        color:white;
+        background:#4E342E;
+        color:#F8F5F0;
         border: none;
         font-family: "Inter", sans-serif;
         letter-spacing: 0.2em;
@@ -77,14 +71,14 @@ header {
 .best-sellers {
     padding: 0 50px;
 }
-    .bs-head {
+    .bs-head h1{
         margin-top: 40px;
         margin-bottom: 40px;
         text-align: center;
         font-family: "Cormorant Garamond", serif;
-        font-size: 20px;
+        font-size: 30px;
         align-items: center;
-        color: #6C5C4F;
+        color: #4E342E;
     }
     .bs-cards {
         width: 100%;
@@ -102,7 +96,9 @@ header {
         line-height: 0.8;
         font-family: "Inter", sans-serif;
         cursor: pointer;
+        color: #2B211C;
     }
+
 .the-look1, .the-look2{
     display: grid;
     grid-template-columns: 1fr 1fr;    
@@ -138,6 +134,8 @@ header {
         text-align: center;
     }
     .tl1, .tl2 {
+        color: #4E342E;
+        font-weight: 500;
         font-size: 50px;
         font-family: "Cormorant Garamond", serif;
         display: flex;
@@ -161,8 +159,7 @@ header {
     }
     .product-card1 h3, .product-card1 p, .product-card2 h3, .product-card2 p {
         font-size: 20px;
-        font-family: "Inter", sans-serif;
-        font-weight: 1;
+        font-family: "Cormorant Garamond", serif;
     }
     .product-card1 h3, .product-card2 h3 {
         margin-top: 40px;
@@ -184,4 +181,341 @@ header {
         border: 1px solid #2B211C;
         border-radius: 5px;
         margin-bottom: 80px;
+        cursor: pointer;
     }
+
+.our-story {
+    margin-top: 0px;
+    text-align: center;
+    padding: 0 200px;
+    padding-top: 90px;
+}
+    .os-content h1{
+        font-size: 30px;
+        font-family: "Cormorant Garamond", serif;
+        color: #4E342E;
+    }
+    .os-content p{
+        padding-top: 20px;
+        font-size: 20px;
+        font-family: "Cormorant Garamond", serif;
+        color: #5E5147;
+        line-height: 1.8;
+    }
+    .os-img img {
+        padding-top: 50px;
+        max-width: 500px;
+        max-height: 600px;
+        width: 100%;
+        cursor: pointer;
+    }
+    .os-discover{
+        font-size: 20px;
+        font-family: "Cormorant Garamond", serif;
+        margin-top: 20px;
+        color: #B29A86;
+        cursor: pointer;
+        margin-bottom: 90px;
+    }
+.contact {
+    display: flex;
+    padding: 40px 80px;
+    color: #F8F5F0;
+    background-color: #4E342E;
+}
+.more-info {
+    display: flex;
+    gap: 50px;
+    text-align: left;
+    padding-left: 0px;
+}
+.more-info h1{
+    font-size: 25px;
+    font-family: "Cormorant Garamond", serif;
+}
+.more-info ul{
+    list-style-type: none;
+    line-height: 3;
+    padding-left: 0px;
+}
+.more-info ul li{
+    font-size: 18px;
+    font-family:  "Cormorant Garamond", serif;
+}
+.more-info a {
+    text-decoration: none;
+    color: #F8F5F0;
+}
+.subscribe {
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 90px;
+    margin-right: 0px;
+}
+.subscribe h1, .footer-col h1 {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    color: #F8F5F0;
+}
+.subscribe h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.subscribe p {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 18px;
+    line-height: 1.4;
+    max-width: 650px;
+}
+.subscribe-form {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(248,245,240,0.8);
+    max-width: 620px;
+}
+.subscribe-form input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 15px 0;
+    font-size: 18px;
+    font-family: "Cormorant Garamond", serif;
+    color: #F8F5F0;
+}
+.subscribe-form input::placeholder {
+    color: #F8F5F0;
+}
+.subscribe-form button {
+    background: transparent;
+    border: none;
+    color: #F8F5F0;
+    font-size: 18px;
+    cursor: pointer;
+}
+.privacy-text {
+    margin-top: 35px;
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+}
+.privacy-text a {
+    color: #F8F5F0;
+}
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    color: #2B211C;
+}
+/* iPad / Tablet responsive */
+@media (max-width: 1024px) {
+
+    header {
+        padding: 0 30px;
+        gap: 15px;
+        height: 120px;
+    }
+
+    header img {
+        max-width: 260px;
+    }
+
+    .head-left,
+    .head-right {
+        font-size: 16px;
+        gap: 25px;
+    }
+
+    .summerCollection {
+        overflow: hidden;
+    }
+
+    .sc-img img {
+        height: 650px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .sc-text {
+        top: 120px;
+        left: 40px;
+        line-height: 1.2;
+    }
+
+    .sc-text h1 {
+        font-size: 60px;
+        margin-bottom: 35px;
+    }
+
+    .sc-text p {
+        width: 520px;
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .sc-text button {
+        padding: 18px 45px;
+        font-size: 14px;
+    }
+
+    .best-sellers {
+        padding: 0 30px;
+    }
+
+    .bs-cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+
+    .the-look1,
+    .the-look2 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .look-model1 img,
+    .look-model2 img {
+        height: 850px;
+        object-fit: cover;
+    }
+
+    .look-content1,
+    .look-content2 {
+        height: 850px;
+        grid-template-rows: 1fr 4fr 1fr 1fr;
+    }
+
+    .tl1,
+    .tl2 {
+        font-size: 42px;
+    }
+
+    .product-slider1,
+    .product-slider2 {
+        margin-top: 60px;
+        padding: 0 20px;
+    }
+
+    .product-card1 img,
+    .product-card2 img {
+        max-width: 280px;
+    }
+
+    .view-btn1,
+    .view-btn2 {
+        width: 210px;
+        height: 58px;
+        font-size: 22px;
+        margin-bottom: 50px;
+    }
+
+    .our-story {
+        padding: 70px 80px 0;
+    }
+
+    .os-content p {
+        font-size: 18px;
+    }
+
+    .contact {
+        flex-direction: column;
+        padding: 40px 50px;
+    }
+
+    .subscribe {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 35px;
+    }
+
+    .more-info {
+        width: 100%;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+}
+/* Smaller tablet / iPad portrait */
+@media (max-width: 768px) {
+
+    header {
+        height: auto;
+        padding: 25px 20px;
+        flex-direction: column;
+    }
+
+    .head-left,
+    .head-right {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        font-size: 15px;
+    }
+
+    header img {
+        max-width: 220px;
+    }
+
+    .sc-img img {
+        height: 600px;
+    }
+
+    .sc-text {
+        top: 90px;
+        left: 25px;
+        right: 25px;
+    }
+
+    .sc-text h1 {
+        font-size: 48px;
+        margin-bottom: 25px;
+    }
+
+    .sc-text p {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .bs-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .the-look1,
+    .the-look2 {
+        grid-template-columns: 1fr;
+    }
+
+    .look-model1,
+    .look-model2 {
+        order: 1;
+    }
+
+    .look-content1,
+    .look-content2 {
+        order: 2;
+        height: auto;
+        padding: 50px 20px;
+    }
+
+    .product-slider1,
+    .product-slider2 {
+        margin-top: 30px;
+    }
+
+    .product-card1 img,
+    .product-card2 img {
+        max-width: 260px;
+    }
+
+    .our-story {
+        padding: 60px 30px 0;
+    }
+
+    .contact {
+        padding: 35px 30px;
+    }
+
+    .more-info {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
