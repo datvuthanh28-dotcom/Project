@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart | Maison Rue</title>
+
+    <link rel="stylesheet" href="homepage.css">
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="head-left">
+            <a href="">MEN</a>
+            <a href="">WOMEN</a>
+            <a href="">ACCESSORIES</a>
+        </nav>
+        <img src="image/logo.png" alt="maisonrue_logo">
+        <nav class="head-right">
+            <a href="">SEARCH <i data-lucide="search"></i></a>
+            <a href="">ACCOUNT <i data-lucide="user"></i></a>
+            <a href="cart.html">CART <span id="quantity"></span> <i data-lucide="shopping-bag"></i></a>
+        </nav>
+    </header>
+
+    <section class="cart-container">
+        <div class="cart-header">
+            <h1>SHOPPING CART</h1>
+        </div>
+
+        <div class="cart-content">
+            <!-- Cart Items Section -->
+            <div class="cart-items-section">
+                <div id="cartItemsContainer" class="cart-items">
+                    <!-- Cart items will be populated here by JavaScript -->
+                </div>
+
+                <!-- Empty Cart Message -->
+                <div id="emptyCartMessage" class="empty-cart" style="display: none;">
+                    <p>Your cart is empty</p>
+                    <a href="index.html" class="continue-shopping-btn">CONTINUE SHOPPING</a>
+                </div>
+            </div>
+
+            <!-- Order Summary Section -->
+            <div class="order-summary">
+                <h2>ORDER SUMMARY</h2>
+                
+                <div class="summary-row">
+                    <span>Subtotal</span>
+                    <span id="subtotal">0 VND</span>
+                </div>
+
+                <div class="summary-row">
+                    <span>Quantity</span>
+                    <span id="summaryQuantity">0</span>
+                </div>
+
+                <div class="summary-row">
+                    <span>Shipping</span>
+                    <span id="shipping">Free</span>
+                </div>
+
+                <div class="summary-divider"></div>
+
+                <div class="summary-row total">
+                    <span>TOTAL</span>
+                    <span id="totalPrice">0 VND</span>
+                </div>
+
+                <button class="checkout-btn">PROCEED TO CHECKOUT</button>
+                <a href="index.html" class="continue-shopping-link">CONTINUE SHOPPING</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
