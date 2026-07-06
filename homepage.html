@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maison Rue | Homepage</title>
+
+    <link rel="stylesheet" href="homepage.css">
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"></head>
+<body>
+    <header>
+        <nav class="head-left">
+            <a href="">MEN</a>
+            <a href="">WOMEN</a>
+            <a href="">ACCESSORIES</a>
+        </nav>
+        <img src="image/logo.png" alt="maisonrue_logo">
+        <nav class="head-right">
+            <a href="">SEARCH <i data-lucide="search"></i></a>
+            <a href="">ACCOUNT <i data-lucide="user"></i></a>
+            <a href="">CART <span id="quantity"></span> <i data-lucide="shopping-bag"></i></a>
+        </nav>
+
+    </header>
+
+    <section class="summerCollection">
+        <div class="sc-img">
+            <img src="image/hero-image/hero-image.png" alt="hero_image">
+        </div>
+        <div class="sc-text">
+            <div>
+                <h1>Spring / Summer 2026</h1>
+                <p>Inspired by slow summer days and timeless European sophistication, Maison Rue’s Spring Summer 2026 collection reimagines everyday essentials through clean silhouettes, natural fabrics, and effortless elegance.</p>
+                <button>EXPLORE MORE</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="best-sellers">
+        <div class="bs-head">
+            <h1>BEST SELLERS</h1>
+        </div>
+        <div class="bs-cards">
+            <div class="shirt">
+                <img src="image/best sellers/shirt.png" alt="">
+                <p>IVORY WHITE LINEN SHIRT</p>
+                <p>2.390.000 VND</p>
+            </div>
+            <div class="cardigan">
+                <img src="image/best sellers/cardigan.png" alt="">
+                <p>OXFORD NAVY CASHMERE CARDIGAN</p>
+                <p>6.490.000 VND</p>
+            </div>
+            <div class="trousers">
+                <img src="image/best sellers/trousers.png" alt="">
+                <p>NATURAL WHITE LINEN TROUSERS</p>
+                <p>2.590.000 VND</p>
+            </div>
+            <div class="cap">
+                <img src="image/best sellers/cap.png" alt="">
+                <p>DEEP TEAL SUEDE CAP</p>
+                <p>2.190.000 VND</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="the-look1">
+        <div class="look-model1">
+            <img src="image/model.png" alt="Maison Rue Look">
+        </div>
+        <div class="look-content1">
+            <p class="tl1">The Look</p>
+            <div class="product-slider1">
+                <button class="arrow-left1" onclick="prevProduct()">‹</button>
+                <div class="product-card1">
+                    <img id="productImg" src="image/Linen Shirt - Men/1.png" alt="Product">
+                    <h3 id="productName">Linen Shirt</h3>
+                    <p id="productGender">Men</p>
+                </div>
+                <button class="arrow-right1" onclick="nextProduct()">›</button>
+            </div>
+            <div class="dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <button class="view-btn1">View all looks</button>
+        </div>
+    </section>
+
+    <section class="the-look2">
+        <div class="look-content2">
+            <p class="tl2">The Look</p>
+            <div class="product-slider2">
+                <button class="arrow-left2" onclick="prevProduct()">‹</button>
+                <div class="product-card2">
+                    <img id="productImg" src="image/Linen Shirt - Men/1.png" alt="Product">
+                    <h3 id="productName">Linen Shirt</h3>
+                    <p id="productGender">Men</p>
+                </div>
+                <button class="arrow-right2" onclick="nextProduct()">›</button>
+            </div>
+            <div class="dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <button class="view-btn2">View all looks</button>
+        </div>
+        <div class="look-model2">
+            <img src="image/model.png" alt="Maison Rue Look">
+        </div>
+        
+    </section>
+
+    <script>
+       lucide.createIcons();
+   	</script>
+</body>
+</html>
