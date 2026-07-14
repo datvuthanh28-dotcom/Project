@@ -375,7 +375,7 @@ function renderCart() {
       <div class="empty-cart">
         <h2>Giỏ Hàng Trống</h2>
         <p>Hãy thêm sản phẩm vào giỏ hàng của bạn</p>
-        <a href="input.html" class="btn-primary">Tiếp Tục Mua Sắm</a>
+        <a href="index.html" class="btn-primary">Tiếp Tục Mua Sắm</a>
       </div>
     `;
     return;
