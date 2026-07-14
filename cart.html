@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giỏ Hàng - Maison Rue</title>
-    <link rel="stylesheet" href="homepage.css">
-    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,12 +17,20 @@
             <a href="women.html">WOMEN</a>
             <a href="accessories.html">ACCESSORIES</a>
         </nav>
-        <img src="image/logo.png" alt="maisonrue_logo">
+        <a href="input.html" class="logo-link"><img src="image/logo.png" alt="maisonrue_logo"></a>
         <nav class="head-right">
-            <a href="">SEARCH <i class="fas fa-search"></i></a>
-            <a href="">ACCOUNT <i class="fas fa-user"></i></a>
+            <a href="#" id="searchBtn">SEARCH <i class="fas fa-search"></i></a>
+            <a href="login.html">ACCOUNT <i class="fas fa-user"></i></a>
             <a href="cart.html">CART <span id="quantity"></span> <i class="fas fa-shopping-bag"></i></a>
         </nav>
+
+        <div class="search-box" id="searchBox">
+            <div class="search-content">
+                <button id="closeSearch" type="button">&times;</button>
+                <input type="text" id="searchInput" placeholder="Search Maison Rue...">
+                <div id="searchResults"></div>
+            </div>
+        </div>
     </header>
 
     <section class="page-header">
@@ -32,8 +39,161 @@
 
     <div id="cart-container"></div>
 
-    <footer>
-        <p>© 2026 Maison Rue. All rights reserved.</p>
+    <!-- CONTACT AND NEWSLETTER -->
+    <section class="contact">
+
+        <div class="subscribe">
+
+            <h1>Subscribe to our newsletter</h1>
+
+            <p>
+                Receive our newsletter and discover our world, collections,
+                and latest news from us.
+            </p>
+
+            <form class="subscribe-form">
+
+                <input
+                    type="email"
+                    placeholder="Your email address"
+                    required
+                >
+                <button type="submit"> → </button>
+
+            </form>
+
+            <p class="privacy-text">
+                I acknowledge that my email address will be processed by
+                Maison Rue in accordance with the provisions of the
+                <a href="#">Privacy Policy</a>.
+            </p>
+
+        </div>
+
+        <div class="more-info">
+
+            <!-- CUSTOMER CARE -->
+            <div class="customer-care">
+
+                <h1>Customer Care</h1>
+
+                <ul>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Shipping & Returns</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Size Guide</a>
+                    </li>
+
+                    <li>
+                        <a href="#">FAQs</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <!-- ABOUT US -->
+            <div class="about-us">
+
+                <h1>About Us</h1>
+
+                <ul>
+                    <li>
+                        <a href="#">Our Story</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Sustainability</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Careers</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Press</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <!-- LEGAL -->
+            <div class="legal-cookies">
+
+                <h1>Legal & Cookies</h1>
+
+                <ul>
+                    <li>
+                        <a href="#">Privacy Policy</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Terms & Conditions</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Cookie Policy</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <!-- SOCIAL MEDIA -->
+            <div class="social-media">
+
+                <h1>Follow Us</h1>
+
+                <ul>
+
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                            <span>@maisonruevn</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <span>Maison Rue</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-x-twitter"></i>
+                            <span>@MaisonRue</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-tiktok"></i>
+                            <span>@MaisonRue</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <p>
+            © 2026 Maison Rue. All rights reserved.
+        </p>
+
     </footer>
 
     <script src="app.js"></script>
