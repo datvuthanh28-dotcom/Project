@@ -109,20 +109,20 @@ const products = {
       price: 2190000,
       category: "accessories",
       images: [
-        "image/Suede Baseball Cap /DARK-CHOCOLATE-BROWN/1.png", 
-        "image/Suede Baseball Cap /DARK-CHOCOLATE-BROWN/2.png", 
-        "image/Suede Baseball Cap /DEEP-TEAL/1.png", 
-        "image/Suede Baseball Cap /DEEP-TEAL/2.png"
+        "image/Suede Baseball Cap/DARK-CHOCOLATE-BROWN/1.jpg", 
+        "image/Suede Baseball Cap/DARK-CHOCOLATE-BROWN/2.png", 
+        "image/Suede Baseball Cap/DEEP-TEAL/1.png", 
+        "image/Suede Baseball Cap/DEEP-TEAL/2.png"
       ],
       colors: ["DARK-CHOCOLATE-BROWN", "DEEP-TEAL"],
       colorImages: {
         "DARK-CHOCOLATE-BROWN": [
-          "image/Suede Baseball Cap /DARK-CHOCOLATE-BROWN/1.png", 
-          "image/Suede Baseball Cap /DARK-CHOCOLATE-BROWN/2.png"
+          "image/Suede Baseball Cap/DARK-CHOCOLATE-BROWN/1.jpg", 
+          "image/Suede Baseball Cap/DARK-CHOCOLATE-BROWN/2.png"
         ],
         "DEEP-TEAL": [
-          "image/Suede Baseball Cap /DEEP-TEAL/1.png", 
-          "image/Suede Baseball Cap /DEEP-TEAL/2.png"
+          "image/Suede Baseball Cap/DEEP-TEAL/1.png", 
+          "image/Suede Baseball Cap/DEEP-TEAL/2.png"
         ]
       },
       description: "Premium suede baseball cap with a structured yet soft shape..."
