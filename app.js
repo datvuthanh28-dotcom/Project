@@ -508,28 +508,58 @@ document.addEventListener('DOMContentLoaded', function() {
 // ============ SEARCH FUNCTION ============
 const searchData = [
   {
-    name: "Linen Shirt",
+    name: "Linen Shirt (Men)",
     type: "Product",
-    link: "linen-shirt.html",
-    keywords: "shirt linen white ivory men women best seller"
+    link: "product-detail.html?id=3",
+    keywords: "shirt linen white ivory men best seller"
   },
   {
-    name: "Cashmere Cardigan",
+    name: "Linen Shirt (Women)",
     type: "Product",
-    link: "cashmere-cardigan.html",
-    keywords: "cardigan cashmere navy oxford best seller"
+    link: "product-detail.html?id=7",
+    keywords: "shirt linen white ivory women best seller"
   },
   {
-    name: "Linen Trousers",
+    name: "Cashmere Cardigan (Men)",
     type: "Product",
-    link: "linen-trousers.html",
+    link: "product-detail.html?id=1",
+    keywords: "cardigan cashmere navy oxford men best seller"
+  },
+  {
+    name: "Cashmere Cardigan (Women)",
+    type: "Product",
+    link: "product-detail.html?id=5",
+    keywords: "cardigan cashmere beige grapefruit women best seller"
+  },
+  {
+    name: "Linen Pants (Men)",
+    type: "Product",
+    link: "product-detail.html?id=2",
+    keywords: "trousers pants linen white natural men best seller"
+  },
+  {
+    name: "Linen Pants (Women)",
+    type: "Product",
+    link: "product-detail.html?id=6",
     keywords: "trousers pants linen white natural women best seller"
   },
   {
-    name: "Suede Cap",
+    name: "Suede Baseball Cap",
     type: "Product",
-    link: "suede-cap.html",
-    keywords: "cap hat suede teal accessories best seller"
+    link: "product-detail.html?id=9",
+    keywords: "cap hat suede teal chocolate accessories best seller"
+  },
+  {
+    name: "Suede Loafer (Men)",
+    type: "Product",
+    link: "product-detail.html?id=4",
+    keywords: "loafer suede tan shoes men"
+  },
+  {
+    name: "Suede Loafer (Women)",
+    type: "Product",
+    link: "product-detail.html?id=8",
+    keywords: "loafer suede tan shoes women"
   },
   {
     name: "Men",
